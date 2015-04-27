@@ -61,22 +61,19 @@ You must provide the multilocus genotypes of the haploid maternal parent and the
 The file is a comma-separated-value (CSV) format.
 The first line of the document should be comma-separated list of loci names, beginning with "Loci":
 
-	```Loci,17a,65a,78a,1a,7a,68a,10a,18a,19a,9a,20a,14a,56a```
+`Loci,17a,65a,78a,1a,7a,68a,10a,18a,19a,9a,20a,14a,56a`
 
 The multilocus genotypes begin on the next line. The first field is the individual ID. 
 The second field is the ID of the maternal parent.
 Then there should be two columns per locus. For maternal genotypes, simply list each allele twice.
 
 ###Example Maternal Genotype:
-
-```MJ872,,158,158,193,193,191,191,254,254,190,190,219,219,249,249,129,129,273,273,180,180,290,290,195,195,198,198```
-
+`MJ872,,158,158,193,193,191,191,254,254,190,190,219,219,249,249,129,129,273,273,180,180,290,290,195,195,198,198`
 
 Note that the second field is blank. This identifies this individual as a maternal haploid.
 
 ###Example Offspring Genotype:
-
-```MJ873,MJ872,158,158,193,193,191,191,254,254,182,190,219,219,249,249,129,129,273,276,180,180,290,293,195,195,198,198```
+`MJ873,MJ872,158,158,193,193,191,191,254,254,182,190,219,219,249,249,129,129,273,276,180,180,290,293,195,195,198,198`
 
 The second field identifies that this individual (MJ873) has individual MJ872 as a maternal haploid parent.
 
